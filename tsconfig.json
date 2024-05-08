@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "useDefineForClassFields": true,
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
 		"esModuleInterop": true,
@@ -9,10 +8,8 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
     "jsx": "preserve",
 
     /* Linting */
