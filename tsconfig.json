@@ -24,6 +24,7 @@
 			"node",
       "unplugin-icons/types/vue",
     ],
+		"baseUrl": ".",
 		"paths": {
       "~/*": ["./*"],
       "@/*": ["./src/*"]
