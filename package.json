@@ -26,6 +26,7 @@
     "build": "farm build",
     "preview": "farm preview",
     "clean": "farm clean",
+		"typecheck": "vue-tsc --noEmit --skipLibCheck",
     "lint": "eslint . --fix",
     "format": "soy prettier-write",
     "commit": "soy git-commit",
@@ -33,7 +34,8 @@
     "update-pkg": "soy ncu",
     "release": "soy release",
     "tsx": "tsx",
-    "prepare": "soy init-simple-git-hooks"
+    "prepare": "soy init-simple-git-hooks",
+		"changelog": "soy changelog"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
