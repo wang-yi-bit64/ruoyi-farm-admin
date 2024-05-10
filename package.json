@@ -6,10 +6,6 @@
     "Vue",
     "Vue3",
     "admin",
-    "admin-template",
-    "vue-admin",
-    "vue-admin-template",
-    "vite-admin",
     "TypeScript",
     "TS",
     "Ant-design-vue",
@@ -17,7 +13,7 @@
     "Ant-design-vue-Admin",
     "UnoCSS",
     "Farm",
-    "Fram Rust",
+    "Farm admin",
     "Vite"
   ],
   "scripts": {
