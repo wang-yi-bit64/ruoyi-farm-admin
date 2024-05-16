@@ -1,5 +1,5 @@
 interface Window {
-
+	$message: typeof import('ant-design-vue').message;
 }
 
 interface ViewTransition {
