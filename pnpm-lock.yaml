@@ -81,8 +81,8 @@ importers:
         specifier: ^3.4.0
         version: 3.4.25(typescript@5.4.5)
       vue-i18n:
-        specifier: ^9.13.1
-        version: 9.13.1(vue@3.4.25(typescript@5.4.5))
+        specifier: ^9.14.3
+        version: 9.14.3(vue@3.4.25(typescript@5.4.5))
       vue-router:
         specifier: ^4.3.2
         version: 4.3.2(vue@3.4.25(typescript@5.4.5))
@@ -743,6 +743,7 @@ packages:
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -750,6 +751,7 @@ packages:
 
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
+    deprecated: Use @eslint/object-schema instead
 
   '@iconify/json@2.2.205':
     resolution: {integrity: sha512-79DbcI0U40w6jCYADjhSheJ6SVB/FJG/z0ltnqdHF/uRi6/MLroqe7y9Qy+99Ebb6F2WZgVV+TXfFMMORMPXFw==}
@@ -764,16 +766,16 @@ packages:
     resolution: {integrity: sha512-mtup3wVKia3ZwULPHcbs4Mor8Voi+iIXEWD7wCNbIO6lYR62oPCTQyrddi5OMYVXHzeCSoneZwJuS8sBvlEwDw==}
     engines: {node: '>=18'}
 
-  '@intlify/core-base@9.13.1':
-    resolution: {integrity: sha512-+bcQRkJO9pcX8d0gel9ZNfrzU22sZFSA0WVhfXrf5jdJOS24a+Bp8pozuS9sBI9Hk/tGz83pgKfmqcn/Ci7/8w==}
+  '@intlify/core-base@9.14.3':
+    resolution: {integrity: sha512-nbJ7pKTlXFnaXPblyfiH6awAx1C0PWNNuqXAR74yRwgi5A/Re/8/5fErLY0pv4R8+EHj3ZaThMHdnuC/5OBa6g==}
     engines: {node: '>= 16'}
 
-  '@intlify/message-compiler@9.13.1':
-    resolution: {integrity: sha512-SKsVa4ajYGBVm7sHMXd5qX70O2XXjm55zdZB3VeMFCvQyvLew/dLvq3MqnaIsTMF1VkkOb9Ttr6tHcMlyPDL9w==}
+  '@intlify/message-compiler@9.14.3':
+    resolution: {integrity: sha512-ANwC226BQdd+MpJ36rOYkChSESfPwu3Ss2Faw0RHTOknYLoHTX6V6e/JjIKVDMbzs0/H/df/rO6yU0SPiWHqNg==}
     engines: {node: '>= 16'}
 
-  '@intlify/shared@9.13.1':
-    resolution: {integrity: sha512-u3b6BKGhE6j/JeRU6C/RL2FgyJfy6LakbtfeVF8fJXURpZZTzfh3e05J0bu0XPw447Q6/WUp3C4ajv4TMS4YsQ==}
+  '@intlify/shared@9.14.3':
+    resolution: {integrity: sha512-hJXz9LA5VG7qNE00t50bdzDv8Z4q9fpcL81wj4y4duKavrv0KM8YNLTwXNEFINHjTsfrG9TXvPuEjVaAvZ7yWg==}
     engines: {node: '>= 16'}
 
   '@isaacs/cliui@8.0.2':
@@ -1366,6 +1368,9 @@ packages:
   '@vue/devtools-api@6.6.1':
     resolution: {integrity: sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA==}
 
+  '@vue/devtools-api@6.6.4':
+    resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
+
   '@vue/devtools-core@7.1.3':
     resolution: {integrity: sha512-pVbWi8pf2Z/fZPioYOIgu+cv9pQG55k4D8bL31ec+Wfe+pQR0ImFDu0OhHfch1Ra8uvLLrAZTF4IKeGAkmzD4A==}
 
@@ -1512,6 +1517,7 @@ packages:
   are-we-there-yet@3.0.1:
     resolution: {integrity: sha512-QZW4EDmGwlYur0Yyf/b2uGucHQMa8aFUP7eu9ddR73vvhFyt4V0Vl3QHPcTNJ8l6qYOBdxgXdnBXQrHilfRQBg==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    deprecated: This package is no longer supported.
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
@@ -2524,6 +2530,7 @@ packages:
   eslint@8.56.0:
     resolution: {integrity: sha512-Go19xM6T9puCOWntie1/P997aXxFsOi37JIHRWI514Hc6ZnaHGKY9xFhrU65RT6CcBEzZoGG1e6Nq+DT04ZtZQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   esniff@2.0.1:
@@ -2744,6 +2751,7 @@ packages:
   gauge@4.0.4:
     resolution: {integrity: sha512-f9m+BEN5jkg6a0fZjleidjN51VE1X+mPFQ2DJ0uv1V39oCLCbsGe6yjbBnp7eK7z/+GAon99a3nHuqbuuthyPg==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    deprecated: This package is no longer supported.
 
   gensync@1.0.0-beta.2:
     resolution: {integrity: sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==}
@@ -2802,10 +2810,12 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   global-dirs@3.0.1:
     resolution: {integrity: sha512-NBcGGFbBA9s1VzD41QXDG+3++t9Mn5t1FpLdhESY6oKY4gYTFpX4wO3sqGUa0Srjtbfj3szX0RnemmrVRUdULA==}
@@ -3049,6 +3059,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.1:
     resolution: {integrity: sha512-8nWq2nLTAwd02jTqJExUYFSD/fKq6VH9Y/oG2accc/kdI0V98Bag8d5a4gi3XHz73rDWa2PvTtvcWYquKqSENA==}
@@ -3893,6 +3904,7 @@ packages:
   npmlog@6.0.2:
     resolution: {integrity: sha512-/vBvz5Jfr9dT/aFWd0FIRf+T/Q2WBsLENygUaFUqstqsycmZAP/t5BvFJTK0viFmSUxiUKTUplWy5vt+rvKIxg==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    deprecated: This package is no longer supported.
 
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
@@ -4079,7 +4091,8 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
 
   path-to-regexp@1.8.0:
-    resolution: {integrity: sha512-n43JRhlUKUAlibEJhPeir1ncUID16QnEjNpwzNdO3Lm4ywrBpBZ5oLD0I6br9evr1Y9JTqwRtAh7JLoOzAQdVA==}
+    resolution: {integrity: sha512-xIp7/apCFJuUHdDLWe8O1HIkb0kQrOMb/0u6FXQjemHn/ii5LrIzU6bdECnsiTF/GjZkMEKg1xdiZwNqDYlZ6g==, tarball: https://registry.npmmirror.com/path-to-regexp/-/path-to-regexp-1.9.0.tgz}
+    deprecated: '[WARNING] Use 1.9.0 instead of 1.8.0, reason: https://github.com/pillarjs/path-to-regexp/security/advisories/GHSA-9wv6-86v2-598j'
 
   path-type@4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
@@ -4271,6 +4284,7 @@ packages:
   read-package-json@6.0.4:
     resolution: {integrity: sha512-AEtWXYfopBj2z5N5PbkAOeNHRPUg5q+Nen7QLxV8M2zJq1ym6/lCz3fYNTCXe19puu2d06jfHhrP7v/S2PtMMw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    deprecated: This package is no longer supported. Please use @npmcli/package-json instead.
 
   read-pkg-up@7.0.1:
     resolution: {integrity: sha512-zK0TB7Xd6JpCLmlLmufqykGE+/TlOePD6qKClNW7hHDKFh/J7/7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg==}
@@ -4395,6 +4409,7 @@ packages:
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@5.0.5:
@@ -4599,6 +4614,10 @@ packages:
 
   source-map-js@1.2.0:
     resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
+    engines: {node: '>=0.10.0'}
+
+  source-map-js@1.2.1:
+    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
   source-map-resolve@0.5.3:
@@ -5181,8 +5200,8 @@ packages:
       '@vue/composition-api':
         optional: true
 
-  vue-i18n@9.13.1:
-    resolution: {integrity: sha512-mh0GIxx0wPtPlcB1q4k277y0iKgo25xmDPWioVVYanjPufDBpvu5ySTjP5wOrSvlYQ2m1xI+CFhGdauv/61uQg==}
+  vue-i18n@9.14.3:
+    resolution: {integrity: sha512-C+E0KE8ihKjdYCQx8oUkXX+8tBItrYNMnGJuzEPevBARQFUN2tKez6ZVOvBrWH0+KT5wEk3vOWjNk7ygb2u9ig==}
     engines: {node: '>= 16'}
     peerDependencies:
       vue: ^3.0.0
@@ -6084,17 +6103,17 @@ snapshots:
 
   '@inquirer/figures@1.0.1': {}
 
-  '@intlify/core-base@9.13.1':
+  '@intlify/core-base@9.14.3':
     dependencies:
-      '@intlify/message-compiler': 9.13.1
-      '@intlify/shared': 9.13.1
+      '@intlify/message-compiler': 9.14.3
+      '@intlify/shared': 9.14.3
 
-  '@intlify/message-compiler@9.13.1':
+  '@intlify/message-compiler@9.14.3':
     dependencies:
-      '@intlify/shared': 9.13.1
-      source-map-js: 1.2.0
+      '@intlify/shared': 9.14.3
+      source-map-js: 1.2.1
 
-  '@intlify/shared@9.13.1': {}
+  '@intlify/shared@9.14.3': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -6825,6 +6844,8 @@ snapshots:
       '@vue/shared': 3.4.26
 
   '@vue/devtools-api@6.6.1': {}
+
+  '@vue/devtools-api@6.6.4': {}
 
   '@vue/devtools-core@7.1.3(vite@5.2.10(@types/node@20.12.7)(sass@1.77.0))(vue@3.4.25(typescript@5.4.5))':
     dependencies:
@@ -10532,6 +10553,8 @@ snapshots:
 
   source-map-js@1.2.0: {}
 
+  source-map-js@1.2.1: {}
+
   source-map-resolve@0.5.3:
     dependencies:
       atob: 2.1.2
@@ -11173,11 +11196,11 @@ snapshots:
     dependencies:
       vue: 3.4.25(typescript@5.4.5)
 
-  vue-i18n@9.13.1(vue@3.4.25(typescript@5.4.5)):
+  vue-i18n@9.14.3(vue@3.4.25(typescript@5.4.5)):
     dependencies:
-      '@intlify/core-base': 9.13.1
-      '@intlify/shared': 9.13.1
-      '@vue/devtools-api': 6.6.1
+      '@intlify/core-base': 9.14.3
+      '@intlify/shared': 9.14.3
+      '@vue/devtools-api': 6.6.4
       vue: 3.4.25(typescript@5.4.5)
 
   vue-router@4.3.2(vue@3.4.25(typescript@5.4.5)):
