@@ -66,8 +66,8 @@ importers:
         specifier: ^4.7.5
         version: 4.7.5
       swiper:
-        specifier: ^11.1.1
-        version: 11.1.1
+        specifier: ^12.1.2
+        version: 12.1.2
       ua-parser-js:
         specifier: ^1.0.37
         version: 1.0.37
@@ -3481,6 +3481,7 @@ packages:
   keygrip@1.1.0:
     resolution: {integrity: sha512-iYSchDJ+liQ8iwbSI2QqsQOvqv58eJCEanyJPJi+Khyu8smkcKSFUCbPwzFcL7YVtZ6eONjqRX/38caJ7QjRAQ==}
     engines: {node: '>= 0.6'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
@@ -4880,8 +4881,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  swiper@11.1.1:
-    resolution: {integrity: sha512-jGmEA/fNz1lACIcY4/40ggm1Gcyv+EUivmgV/Jd2WFPsEJhbWXnRAwzZR8OPjkBLtDxmzcoYG/iiAMWfRs0YKQ==}
+  swiper@12.1.2:
+    resolution: {integrity: sha512-4gILrI3vXZqoZh71I1PALqukCFgk+gpOwe1tOvz5uE9kHtl2gTDzmYflYCwWvR4LOvCrJi6UEEU+gnuW5BtkgQ==}
     engines: {node: '>= 4.7.0'}
 
   synckit@0.8.8:
@@ -5286,6 +5287,7 @@ packages:
   vue-i18n@9.14.5:
     resolution: {integrity: sha512-0jQ9Em3ymWngyiIkj0+c/k7WgaPO+TNzjKSNq9BvBQaKJECqn9cd9fL4tkDhB5G1QBskGl9YxxbDAhgbFtpe2g==}
     engines: {node: '>= 16'}
+    deprecated: v9 and v10 no longer supported. please migrate to v11. about maintenance status, see https://vue-i18n.intlify.dev/guide/maintenance.html
     peerDependencies:
       vue: ^3.0.0
 
@@ -10901,7 +10903,7 @@ snapshots:
       picocolors: 1.0.0
       stable: 0.1.8
 
-  swiper@11.1.1: {}
+  swiper@12.1.2: {}
 
   synckit@0.8.8:
     dependencies:
